@@ -1,0 +1,25 @@
+@media (max-width: 991px){
+    .intro{
+        height: 390px;
+    }
+}
+.intro:before {
+    padding-top: 41.66666667%;
+    content: "";
+    padding-top: 56.25%;
+    display: block;
+}
+.flex{
+    display: flex;
+}
+.features-box{
+    flex: 1 1 50%;
+}
+.img{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img::before{
+    content: "";
+    padding-top: 100%;
+}

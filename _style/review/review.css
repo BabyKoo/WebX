@@ -1,0 +1,62 @@
+/* By 李思明 */
+div p strong.word{
+	text-decoration: underline;
+}
+h1 .flex-xxs-12{
+	color:#fff;
+	margin-bottom:20px;
+}
+h1#header1{
+	padding-top:41px;
+	font-size:47px;
+	font-family: Redemption-zh_hans,serif;
+}
+body{
+	background:#2F0002;
+	font-size: 18px;
+}
+body p{
+	margin-bottom:20px;
+}
+div {
+    display: block;
+}
+news-article .article h1, news .article h1 {
+    text-align: center;
+    margin: 0 auto 20px;
+	color:#fff;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*整体*/
+.article, news .article {
+    max-width: 1100px;
+    font-family: Univers Condensed,sans-serif;
+    background-image: url(../../_images/review/background.png);
+    background-repeat: repeat-y;
+    background-size: contain;
+    padding: 0 85px 100px;
+    margin: 0 auto -100px;
+}
+news-article .article .body, news .article .body {
+    color: #fff!important;
+}
+.newswire-article-responsive .body {
+    line-height: 135%;
+    font-size: 1.1em!important;
+    letter-spacing: -.015em;
+    color: #000!important;
+}
+.created{
+	text-align: center;
+	color:#fff;
+	margin-bottom: 40px;
+}
+/*底部footer*/
+/*  */
+#link-review, #link-review>*{
+    color: #c00;
+    opacity: 1;
+}

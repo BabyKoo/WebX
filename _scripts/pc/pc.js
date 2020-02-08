@@ -1,4 +1,4 @@
-/* By 古学懂-170403104017 */
+﻿/* By 古学懂-170403104017 */
 function imgInit() {
     var imgOpener = document.getElementsByClassName("img-opener");
     for (var i = 0; i < imgOpener.length; i++) {

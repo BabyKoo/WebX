@@ -1,0 +1,45 @@
+/* By 许哲豪 170202102697 */
+
+.mainbody{ 
+	background-color: #300002;
+	width: 100%;
+	height: 900px;
+}
+
+.main{
+	width: 660px;
+	height: 800px;
+	margin:50px 60px 10px;
+	float:left;
+}
+
+.main img{
+	width: 660px;
+	height: 800px;
+}
+
+.article-side{
+	width: 450px;
+	height: 350px;
+	margin: 325px 60px 220px 40px;
+	color:white;
+	/* line-height: ; */
+	font-size: 18.5px;
+	font-family: "Univers Condensed", "sans-serif";
+	display: block;
+	float: left;
+}
+
+.article-side a {
+	color: #cc0000;
+	text-decoration: underline;
+}
+
+.article-side p {
+	margin: 7px;
+}
+/*  */
+#link-info, #link-info>*{
+    color: #c00;
+    opacity: 1;
+}
