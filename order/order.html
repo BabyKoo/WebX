@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--By 古学懂-170403104017-->
+<html lang="zh-hans">
+
+<head>
+    <meta charset="utf-8">
+    <title>Red Dead Redemption 2</title>
+    <meta name="theme-color" content="color=" #ffb100"">
+    <link rel="stylesheet" href="../_style/site-init.css">
+    <link rel="stylesheet" href="../_style/order/order.css">
+    <script src="../_scripts/site-init.js"></script>
+    <link rel="icon" href="../_images/index/favicon-32x32.png">
+</head>
+
+<body onload="siteInit()">
+    <header></header>
+    <div id="router" class="router">
+        <div class="order-content">
+            <div id="order-post" class=" flex post">
+            </div>
+            <div class="selector flex">
+                <div id="selector-left" class="flex flex-3col flex-1col"></div>
+                <div id="selector-right" class="flex flex-3col flex-1col">
+                    <div id="edition-select">
+                        <h4>选择版本</h4>
+                        <div name="edition-select" value="ult" onclick="editionSelect(1)">终极版</div>
+                        <div name="edition-select" value="spec" onclick="editionSelect(2)">特别版</div>
+                        <div name="edition-select" value="std" onclick="editionSelect(3)">标准版</div>
+                    </div>
+                </div>
+                <div id="platform-select">
+                    <h4>选择平台</h4>
+                    <select name="platform-select" id="">
+                        <option value="pc"></option>
+                        <option value="ps4"></option>
+                        <option value="xone"></option>
+                    </select>
+                </div>
+                <div class="buy"></div>
+            </div>
+        </div>
+        <div id="exclusives" class="exclusives flex">
+            <hr>
+            <h1></h1>
+            <p>Red Dead Redemption 2 终极版将提供特别版中的全部故事模式内容及额外的在线模式奖励。</p>
+            <div class="storymode">
+                <h3></h3>
+                <div class="things flex">
+                    <div id="st-1" class="thing flex flex-3col flex-2col">
+                        <div class="img"></div>
+                        <h5></h5>
+                    </div>
+                    <div id="st-2" class="thing flex flex-3col flex-2col">
+                        <div class="img"></div>
+                        <h5></h5>
+                    </div>
+                    <div id="st-3" class="thing flex flex-3col flex-2col">
+                        <div class="img"></div>
+                        <h5></h5>
+                    </div>
+                    <div id="st-4" class="thing flex flex-3col flex-2col">
+                        <div class="img"></div>
+                        <h5></h5>
+                    </div>
+                    <div id="st-5" class="thing flex flex-3col flex-2col">
+                        <div class="img"></div>
+                        <h5></h5>
+                    </div>
+                    <div id="st-6" class="thing flex flex-3col flex-2col">
+                        <div class="img"></div>
+                        <h5></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="online-plus">
+                <h3></h3>
+                <div class="things flex">
+                    <div id="ot-1" class="thing flex flex-4col flex-2col">
+                        <div class="img"></div>
+                        <h5></h5>
+                    </div>
+                    <div id="ot-2" class="thing flex flex-4col flex-2col">
+                        <div class="img"></div>
+                        <h5></h5>
+                    </div>
+                    <div id="ot-3" class="thing flex flex-4col flex-2col">
+                        <div class="img"></div>
+                        <h5></h5>
+                    </div>
+                    <div id="ot-4" class="thing flex flex-4col flex-2col">
+                        <div class="img"></div>
+                        <h5></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="warehouse">
+            <h1>
+                <span>Warehouse</span>
+            </h1>
+            <div class="things flex">
+                <div id="wt-1" class="thing flex flex-3col flex-2col">
+                    <div class="brush-gray">
+                        <div class="img"></div>
+                        <h5></h5>
+                    </div>
+                </div>
+                <div id="wt-2" class="thing flex flex-3col flex-2col">
+                    <div class="brush-gray">
+                        <div class="img"></div>
+                        <h5></h5>
+                    </div>
+                </div>
+                <div id="wt-3" class="thing flex flex-3col flex-2col">
+                    <div class="brush-gray">
+                        <div class="img"></div>
+                        <h5></h5>
+                    </div>
+                </div>
+            </div>
+            <div class="flex">
+                <a class="brush-red" href="https://www.rockstarwarehouse.com" target="_blank">请访问
+                    Rockstarwarehouse.com</a>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+</body>
+
+</html>
